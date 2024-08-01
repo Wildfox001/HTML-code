@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Simple Web Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Web Page</h1>
+    </header>
+    
+    <div class="container">
+        <h2>About Me</h2>
+        <p>Hello! I'm [Your Name]. This is a simple web page to showcase basic HTML structure.</p>
+        
+        <h3>My Favorite Image</h3>
+        <img src="https://via.placeholder.com/600x400" alt="Placeholder Image">
+        
+        <h3>Useful Links</h3>
+        <ul>
+            <li><a href="https://www.example.com" target="_blank">Example Website</a></li>
+            <li><a href="https://www.anotherexample.com" target="_blank">Another Example</a></li>
+        </ul>
+    </div>
+    
+    <footer>
+        <p>&copy; 2024 My Simple Web Page</p>
+    </footer>
+</body>
+</html>
+
+            
